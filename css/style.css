@@ -1,0 +1,762 @@
+@font-face {
+    font-family: "GalR";
+    src: url(../fonts/Galien-Regular.otf);
+}
+
+@font-face {
+    font-family: "GalB";
+    src: url(../fonts/Galien-Bold.ttf);
+}
+
+@font-face {
+    font-family: "GilB";
+    src: url(../fonts/Gilroy-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: "GilR";
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "GilT";
+    src: url(../fonts/Gilroy-Thin.ttf);
+}
+
+  
+* {
+    margin: 0px;
+    font-family: "GilR";
+    box-sizing: border-box;
+}
+
+.body_full {
+    display: flex;
+    background: linear-gradient(0deg, #ddeefd 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.body_full2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+
+}
+.headerr{
+    display: flex;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    max-width: 1208px;
+}
+
+.block1 {
+    display: flex;
+    max-width: 1300px;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.p_one {
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    font-family: "GalB";
+    width: 520px;
+}
+
+.p_two {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 50px;
+    color: #1F3F68;
+    width: 425px;
+    opacity: 0.6;
+}
+
+.button_info {
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    border: none;
+    margin-top: 70px;
+
+
+}
+
+.button_info a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+
+}
+
+.body_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.block_info {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+    font-family: "GilB";
+    width: 390px;
+    height: 138px;
+    margin-right: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+    height: 480px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 0px 48px 48px 48px;
+    justify-content: space-between;
+
+}
+
+.info_two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.block_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.zag1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    font-family: "GilB";
+
+}
+
+.zag2 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    font-family: "GilR";
+}
+
+.zag3 a {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    font-family: "GilR";
+    margin-right: 28px;
+    text-decoration: none;
+
+}
+
+.zag3 a:hover {
+    text-decoration: underline;
+}
+
+.block_three {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 190px;
+
+
+}
+
+.inside_three {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    flex-grow: 1;
+}
+
+.blt {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    font-family: "GilB";
+    width: 250px;
+
+}
+
+.infografica {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/Mask\ Group.png");
+    width: 940px;
+    height: 417px;
+}
+
+.infografica p {
+    text-align: right;
+}
+
+.cas {
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-family: "GilT";
+}
+
+.sac {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-family: "GilR";
+}
+
+.infografica_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.one_photo {
+    background-image: url("../img/_12.png");
+    width: 422px;
+    height: 417px;
+}
+
+.two_photo {
+    background-image: url("../img/1Mask\ Group.png");
+    width: 422px;
+    height: 417px;
+}
+
+.block_four {
+    display: flex;
+    background-color: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+
+.inside_block_four {
+    display: flex;
+    flex-direction: column;
+}
+
+.raz {
+    margin-top: 120px;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.raz td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-family: "GilR";
+}
+
+.footer {
+    display: flex;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    margin-right: 100px;
+    justify-content: center;
+    padding-bottom: 65px;
+
+}
+
+.info_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block_footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+
+.fotter_btn {
+    background: #5A98D0;
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    border: none;
+    margin-left: 180px;
+    margin-top: 100px;
+
+}
+
+.fotter_btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    padding-top: 95px;
+    justify-content: space-between;
+    padding-bottom: 65px;
+}
+
+.atc {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+}
+
+.us {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.gg {
+    font-size: 28px;
+    color: white;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+
+
+}
+
+.a p {
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+    font-family: "GilR";
+    padding-top: 25px;
+
+}
+
+.bb {
+    width: 240px;
+    font-family: "GilR";
+    letter-spacing: 0.05em;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: white;
+}
+
+.header_two {
+    display: flex;
+    background-image: url("../img/Mask\ Group\ \(1\).png");
+    height: 250px;
+    justify-content: center;
+
+}
+
+.head_text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head_text p {
+
+    font-family: "GilR";
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.full_body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.info_bodyy {
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
+}
+
+.box {
+
+    width: 940px;
+    height: 56px;
+}
+
+.container-1 {
+    width: 940px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search {
+    width: 940px;
+    height: 56px;
+    background: #1F3F68;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    background: #F4F4F4;
+    border-radius: 10px;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+.container-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #1F3F68;
+}
+
+.ps {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    font-family: "GilB";
+    opacity: 0.8;
+}
+
+.ww {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.plag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+.plag2 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.zg1 {
+    color: #1F3F68;
+    font-family: "GalB";
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+}
+
+.zg2 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+    font-family: "GilR";
+    opacity: 0.6;
+}
+
+.zg3 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    font-family: "GilR";
+}
+
+.zg4 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4;
+    font-family: "GilR";
+}
+
+.promo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 940px;
+}
+
+.promout {
+    display: flex;
+    flex-direction: column;
+}
+
+.prom_colmn {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 940px;
+    margin-top: 55px;
+    margin-bottom: 95px;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.info_contac {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.email {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    width: 540px;
+    height: 800px;
+    justify-content: center;
+}
+
+.email2 {
+    display: flex;
+    flex-direction: column;
+    margin: 56px;
+    justify-content: space-between;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pochta {
+    width: 428px;
+    height: 72px;
+    background-color: white;
+}
+
+.pochta2 {
+    width: 428px;
+    height: 144px;
+    background-color: white;
+}
+
+
+
+.contain-1 {
+    width: 428px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    background-color: white;
+}
+
+.contain-2 {
+    width: 428px;
+    height: 144px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    background-color: white;
+}
+
+.ppt {
+    display: flex;
+    flex-direction: column;
+}
+
+.pt {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contain-1 input#search {
+    width: 428px;
+    height: 72px;
+    background: white;
+    border: 1px solid #356EAD;
+    font-size: 10pt;
+    float: left;
+    background: white;
+    border-radius: 10px;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    opacity: 0.4;
+
+}
+
+.contain-2 input#search {
+    width: 428px;
+    height: 144px;
+    background: white;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    font-size: 10pt;
+    float: left;
+    background: white;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    opacity: 0.4;
+
+}
+
+.email_btn {
+    width: 428px;
+    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: none;
+}
+
+.email_btn a {
+    text-decoration: none;
+    color: white;
+    font-family: "GilB";
+}
+
+.pw1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    font-family: "GilB";
+}
+
+.pw2 {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    font-family: "GilR";
+}
+.map{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 96px;
+}
+.map_photo{
+display: flex;
+}
